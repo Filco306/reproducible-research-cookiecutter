@@ -82,4 +82,4 @@ Generating a Docker image will allow anyone to reproduce the research produced. 
 
 ### 2020-09-14
 
-Repository created. Any feedback or contribution is highly encouraged through an issue. 
+Repository created. Any feedback or contribution is highly encouraged through an issue.

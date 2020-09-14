@@ -1,6 +1,8 @@
 # {{ cookiecutter.project_name }}
 ![Image example](res/img/fstimg.png)
 
+{{ cookiecutter.project_short_description }}
+
 ## Configuration instructions
 
 ## Installation instructions

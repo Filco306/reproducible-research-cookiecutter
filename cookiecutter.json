@@ -1,5 +1,6 @@
 {
   "project_name": "Reproducible research project",
+  "project_short_description" : "A short description, describing the research project. ",
   "license": [
     "MIT",
     "BSD-3",
