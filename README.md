@@ -1,5 +1,4 @@
 # Cookiecutter template for Reproducible Research
-![Image example](res/img/fstimg.png)
 
 A cookiecutter template for enabling reproducible research.
 ## Resources important to understand
@@ -60,13 +59,18 @@ Some pointers on what needs to be developed.
 
 - Write the Docker image files for different languages.
 - Conditional statements to generate different folders and include different files depending on the choice of languages the research is written in.
-- 
+
+## Contributions
+
+Contributions are more than welcome. Submit a pull request or an issue, and it will be reviewed.
 
 ## Credits and acknowledgments
 
 - The structure of this readme is fetched from [Wikipedia](https://en.wikipedia.org/wiki/README). Information retrieved 25/6 - 2020
 - MIT license is fetched from [this site](https://choosealicense.com/licenses/mit/). Information retrieved 25/6 - 2020
 - The way to handle licenses was directly inspired by [this repository](https://github.com/pytest-dev/cookiecutter-pytest-plugin)
+
+## Design motivations
 
 ## A changelog (usually for programmers)
 

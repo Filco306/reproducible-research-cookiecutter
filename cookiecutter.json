@@ -14,7 +14,8 @@
   "language": [
     "python3",
     "python2.7",
-    "R"
+    "R",
+    "c++"
   ],
   "author_full_name": "",
   "email_main_author": ""
