@@ -7,6 +7,10 @@
 
 ## Operating instructions
 
+## Data used in the project
+
+## Methodology description
+
 ## A file manifest (list of files included)
 
 ## Copyright and licensing information
@@ -16,9 +20,9 @@
 Main author: {{ cookiecutter.author_full_name }}
 Email main author: [{{ cookiecutter.email_main_author }}](mailto:{{ cookiecutter.email_main_author }}?subject=Regarding%20{{ cookiecutter.project_name }})
 
-## Known bugs[3]
+## Known bugs
 
-## Troubleshooting[3]
+## Troubleshooting
 
 ## Credits and acknowledgments
 
