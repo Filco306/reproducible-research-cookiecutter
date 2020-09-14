@@ -72,6 +72,14 @@ Contributions are more than welcome. Submit a pull request or an issue, and it w
 
 ## Design motivations
 
+### Why generate a Dockerfile?
+
+Generating a Docker image will allow anyone to reproduce the research produced. It can be run on any platform that allows a Dockerfile to be installed.
+
 ## A changelog (usually for programmers)
 
 ## A news section (usually for users)
+
+### 2020-09-14
+
+Repository created. Any feedback or contribution is highly encouraged through an issue. 
