@@ -17,7 +17,7 @@ This code is reproducible, because of the reasons below.
 - [ ] The code adheres to coding standards.
     - [ ] If the project is made in python, the use of linters such as [flake8](https://github.com/PyCQA/flake8) and [black](https://github.com/psf/black) is implemented.
     - [ ] If the project is made in C++, the use of linters such as [cpplint](https://github.com/cpplint/cpplint)
-- [ ] My code is well documented.
+- [ ] The code is well documented using a tool such as `mkdocs` or `pdocs`.
 
 ## Why do all these things? An FAQ
 
@@ -46,4 +46,4 @@ A `requirements.txt`-file has the same purpose as not using the `:latest`-tag. I
 
 ### Why adhere to coding standards using tools such as linters?
 
-Using linters and code cleaners improve the readability and reduces the risk of bugs and side-effects in your code. 
+Using linters and code cleaners improve the readability and reduces the risk of bugs and side-effects in your code.
