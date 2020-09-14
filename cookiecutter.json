@@ -7,17 +7,24 @@
     "GNU GPL v3.0",
     "Apache Software License 2.0"
   ],
-  "environment_handler": [
+  "python_environment_handler": [
     "pipenv",
     "virtualenv",
+    "conda",
     "none"
   ],
+  "environment_name": "project_virtual_environment",
   "language": [
     "python3",
     "python2.7",
     "R",
     "c++"
   ],
+  "framework": [
+    "pytorch",
+    "tensorflow"
+  ],
+  "use_gpu_for_computations":"no",
   "author_full_name": "",
   "email_main_author": ""
 }
