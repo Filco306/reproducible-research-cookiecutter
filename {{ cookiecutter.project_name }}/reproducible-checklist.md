@@ -11,6 +11,7 @@ This code is reproducible, because of the reasons below. If you wonder why these
 
 ## Additional quality-raising features
 - [ ] A paper is referenced in the `README.md`, included in the `reports/`-folder or a `reports/METHODOLOGY.md` is attached in the repository.
+- [ ] Tests are included in the repository to test the most essential features of the experiments to quickly see that things work. 
 - [ ] A link to a container registry to a Docker container in which the original experiments were performed is listed in the `README.md`.
 - [ ] When code is copied from other repositories or sources, these are referenced (__even sources such as StackOverflow__).
 - [ ] The code adheres to coding standards.
