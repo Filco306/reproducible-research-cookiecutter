@@ -1,6 +1,7 @@
 # Cookiecutter template for Reproducible Research
 
 A cookiecutter template for enabling reproducible research.
+
 ## Resources important to understand
 
 ## Configuration instructions
@@ -67,8 +68,7 @@ Contributions are more than welcome. Submit a pull request or an issue, and it w
 ## Credits and acknowledgments
 
 - The structure of this readme is fetched from [Wikipedia](https://en.wikipedia.org/wiki/README). Information retrieved 25/6 - 2020
-- MIT license is fetched from [this site](https://choosealicense.com/licenses/mit/). Information retrieved 25/6 - 2020
-- The way to handle licenses was directly inspired by [this repository](https://github.com/pytest-dev/cookiecutter-pytest-plugin)
+- The way to handle licenses was directly inspired by [this repository](https://github.com/pytest-dev/cookiecutter-pytest-plugin).
 
 ## Design motivations
 

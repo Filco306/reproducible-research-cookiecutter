@@ -1,4 +1,4 @@
-# project-creator
+# {{ cookiecutter.project_name }}
 ![Image example](res/img/fstimg.png)
 
 ## Configuration instructions
