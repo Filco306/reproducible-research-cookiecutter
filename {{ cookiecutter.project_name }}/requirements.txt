@@ -4,8 +4,9 @@ cookiecutter
 mkdocs
 {%- if cookiecutter.framework_if_using_python=="pytorch" -%}
 pytorch
-{%- if (cookiecutter.framework_if_using_python=="pytorch" and cookiecutter.gpu_usage=="yes") -%}
+{%- elif (cookiecutter.framework_if_using_python=="pytorch" and cookiecutter.gpu_usage=="yes") -%}
 pytorch-gpu
-{%- if (cookiecutter.framework_if_using_python=="tensorflow") -%}
+{%- elif (cookiecutter.framework_if_using_python=="tensorflow") -%}
 tensorflow
+{%- endif -%}
 
