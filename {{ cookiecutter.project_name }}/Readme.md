@@ -16,6 +16,17 @@
 ## A file manifest (list of files included)
 
 ## Copyright and licensing information
+{%- if cookiecutter.license == "MIT" -%}
+{%- include 'licenses/MIT' %}
+{%- elif cookiecutter.license == "BSD-3" -%}
+{%- include 'licenses/BSD-3' %}
+{%- elif cookiecutter.license == "GNU GPL v3.0" -%}
+{%- include 'licenses/GPL-3' %}
+{%- elif cookiecutter.license == "Apache Software License 2.0" -%}
+{%- include 'licenses/Apache-2' %}
+{%- elif cookiecutter.license == "Mozilla Public License 2.0" -%}
+{%- include 'licenses/MPL-2' %}
+{%- endif -%}
 
 ## Contact information for the distributor or programmer
 
@@ -25,6 +36,8 @@ Email main author: [{{ cookiecutter.email_main_author }}](mailto:{{ cookiecutter
 ## Known bugs
 
 ## Troubleshooting
+
+## Citation
 
 ## Credits and acknowledgments
 

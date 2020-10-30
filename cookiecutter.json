@@ -7,6 +7,13 @@
     "GNU GPL v3.0",
     "Apache Software License 2.0"
   ],
+  "dataset": [
+    "Open sourced public dataset",
+    "Original dataset"
+  ],
+  "operating_system": [
+    "ubuntu 18.04"
+  ],
   "python_environment_handler": [
     "pipenv",
     "virtualenv",
@@ -20,11 +27,24 @@
     "R",
     "c++"
   ],
-  "framework": [
+  "gpu_usage": [
+    "yes",
+    "no"
+  ],
+  "CUDA version": [
+    "9.0",
+    "10.0",
+    "10.1"
+  ],
+  "framework_if_using_python": [
+    "none",
     "pytorch",
     "tensorflow"
   ],
-  "use_gpu_for_computations":"no",
+  "use_pylint": [
+    "yes",
+    "no"
+  ],
   "author_full_name": "",
   "email_main_author": ""
 }
