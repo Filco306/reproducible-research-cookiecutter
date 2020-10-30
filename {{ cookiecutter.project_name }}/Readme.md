@@ -17,15 +17,15 @@
 
 ## Copyright and licensing information
 {%- if cookiecutter.license == "MIT" -%}
-{%- include 'licenses/MIT' %}
+MIT license \
 {%- elif cookiecutter.license == "BSD-3" -%}
-{%- include 'licenses/BSD-3' %}
+BSD-3 license \
 {%- elif cookiecutter.license == "GNU GPL v3.0" -%}
-{%- include 'licenses/GPL-3' %}
+GNU GPL v3.0 license \
 {%- elif cookiecutter.license == "Apache Software License 2.0" -%}
-{%- include 'licenses/Apache-2' %}
+Apache Software License 2.0\
 {%- elif cookiecutter.license == "Mozilla Public License 2.0" -%}
-{%- include 'licenses/MPL-2' %}
+Mozilla Public License 2.0\
 {%- endif -%}
 
 ## Contact information for the distributor or programmer

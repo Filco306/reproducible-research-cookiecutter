@@ -43,22 +43,22 @@ class CleanFilesPython3(CleanFiles):
 
 
 
-cleanfile=CleanFilesPython3
+cleanfile=CleanFilesPython3()
 cleanfile.remove_redundant_docker_files()
 cleanfile.remove_data_readme()
 cleanfile.remove_redundant_licenses()
 if "{{cookiecutter.language}}" == "python3":
     pass  # Then create a python3 project template
-    if "{{cookiecutter.framework}}" == "pytorch":
+    if "{{cookiecutter.framework_if_using_python}}" == "pytorch":
         pass  # Use the pytorch
-    elif "{{cookiecutter.framework}}" == "tensorflow":
+    elif "{{cookiecutter.framework_if_using_python}}" == "tensorflow":
         pass  # Do
     else:
         pass
 elif "{{cookiecutter.language}}" == "python2.7":
-    if "{{cookiecutter.framework}}" == "pytorch":
+    if "{{cookiecutter.framework_if_using_python}}" == "pytorch":
         pass
-    elif "{{cookiecutter.framework}}" == "tensorflow":
+    elif "{{cookiecutter.framework_if_using_python}}" == "tensorflow":
         pass  # Do
     else:
         pass
