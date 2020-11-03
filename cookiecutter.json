@@ -45,6 +45,10 @@
     "yes",
     "no"
   ],
+  "use_pre_commit": [
+    "yes",
+    "no"
+  ],
   "author_full_name": "",
   "email_main_author": ""
 }

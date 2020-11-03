@@ -24,6 +24,9 @@ class CleanFiles:
             remove("data/raw/DataDescriptionOpenSourced.md")
         elif "{{cookiecutter.dataset}}"=="Open sourced public dataset":
             remove("data/raw/DataDescriptionOriginal.md")
+    def remove_pre_commit(self):
+        if "{{cookiecutter.use_pre_commit}}"!="yes":
+            remove(".pre-commit-config.yaml")
 
 
 class CleanFilesPython3(CleanFiles):
