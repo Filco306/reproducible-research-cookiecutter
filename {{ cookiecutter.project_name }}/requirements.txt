@@ -1,4 +1,24 @@
 pytest
+{%- if cookiecutter.use_pre_commit=="yes" -%}
 pre-commit
+{%- endif -%}
 cookiecutter
 mkdocs
+{%- if cookiecutter.framework_if_using_python=="pytorch" -%}
+
+pytorch
+torchvision
+{%- endif -%}
+{%- if (cookiecutter.framework_if_using_python=="pytorch" and cookiecutter.gpu_usage=="yes") -%}
+
+pytorch-gpu
+{%- endif -%}
+{%- if (cookiecutter.framework_if_using_python=="tensorflow") -%}
+
+tensorflow
+{%- endif -%}
+{%- if (cookiecutter.framework_if_using_python=="tensorflow" and cookiecutter.gpu_usage=="yes") -%}
+
+tensorflow-gpu
+{%- endif -%}
+

@@ -18,6 +18,29 @@ pip install cookiecutter
 
 
 ## A file manifest (list of files included)
+-data
+ --processed
+ --raw
+-examples
+-logs
+-references
+-reports
+ --figures
+ --RANDOM_SEEDS.md
+ --reproducible-checklist.md
+-res
+ --img
+-results
+ --checkpoints
+ --experimental
+-scripts
+ --exportRequirement.sh
+ --makeDocker.sh
+-src
+ --reproducibleUtils
+-tests
+ --fixtures
+
 
 
 
