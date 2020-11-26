@@ -37,12 +37,15 @@ This file contains all the nessasary component we should have in the generated t
 
 ## Tests
 - Just add a folder maybe, or we can write some empty template for testing using pytest
+- Tips on what to test and how to test, in a md file
 
 ## GPU support for docker
 - If the user wish to use GPU in their project, we might need 2 versions of dockerfile, one supporting Nvidia container toolkit and one not.
 - FROM nvidia/cuda:10.2-base\
 CMD nvidia-smi\
 at the begining of the dockerfile
+
+## Cite if there is a paper
 
 
 ## source codes
@@ -53,6 +56,15 @@ at the begining of the dockerfile
 - Hardware such as cpu architechture, gpu, cuda .etc
 - Optimization
 
+## Readme.md
+- Template of readme.md with instructions for how to write good readme file for a python research project that gives high reproducibility
+- clear instructions that people can follow easily
+- Link to paper
+
+## Linter
+
+
+
 
 
 
@@ -62,3 +74,4 @@ at the begining of the dockerfile
 	- a decorator for training, exports trained model to the "Models" folder while saving all the hyper-parameters, used datasets, any other specifications such as experiment time/training time to "Logs/train"
 	- a decorator for generating/result, just like the training case, this python module should be a decorator of a generate_result/perdict function and write logs to "Logs/result"
 	- A command line parser maybe? I feel the authors might enjoy more to write their own main.py/run.py/.etc
+	- Random seed/state control that sets random seed for different libraries

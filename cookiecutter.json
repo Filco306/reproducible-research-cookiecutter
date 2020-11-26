@@ -9,7 +9,8 @@
   ],
   "dataset": [
     "Open sourced public dataset",
-    "Original dataset"
+    "Original dataset",
+    "Both"
   ],
   "operating_system": [
     "ubuntu 18.04"
@@ -26,6 +27,12 @@
     "python2.7",
     "R",
     "c++"
+  ],
+  "python_version": [
+    "python3.6",
+    "python3.7",
+    "python3.8",
+    "python3.9"
   ],
   "gpu_usage": [
     "yes",

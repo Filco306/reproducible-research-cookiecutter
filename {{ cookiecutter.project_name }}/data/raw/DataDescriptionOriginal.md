@@ -10,3 +10,5 @@ Description of the original dataset should be placed here
 ## Schema
 
 ## Attribute properties
+
+## License
